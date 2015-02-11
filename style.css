@@ -1,0 +1,125 @@
+body {
+	font-family: courier;
+	text-align: center;
+    color: white;
+}
+h1 {
+	color: white;
+	font-size: 150pt;
+	font-style: bold;
+	margin: 40px 0px 40px 0px;
+	opacity: 0.8;
+}
+h2 {
+	color: rgba(0,0,0,0.5);
+	font-size: 90pt;
+	margin: 100px 0px 140px 0px;
+	font-style: bold;
+}
+h3 {
+	color: black;
+	font-size: 50pt;
+	padding: 0px 0px 60px 0px;
+	margin-top: 40px;
+	font-style: bold;
+	opacity: 0.7;
+}
+p {
+	color: rgba(0,0,0,0.5);
+	font-size: 30pt;
+	font-style: bold;
+	margin: 0px 0px 40px 0px;
+	padding: 60px 0px 60px 0px;
+}
+table {
+	margin: 0px auto;
+	color: black;
+	font-size: 30pt;
+	padding: 0px 0px 60px 0px;
+	margin-top: 40px;
+	font-style: bold;
+	opacity: 0.7;
+}
+#header {
+	background: url(background.png);
+	background-size: 100%;
+	background-position: center;
+}
+li {
+	display: inline;
+	font-size: 15pt;
+}
+ul {
+    padding: 10px;
+    background: black;
+    opacity: 0.7;
+}
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: white;
+	opacity: 0.7;
+}
+a.class1 {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.class1:hover {
+	color: black;
+	opacity: 0.7;
+}
+#is-from {
+	background: url(Barcelona.jpg);
+	background-position: center;
+    background-size: cover;
+}
+#studied {
+	background: url(architecture.jpg);
+	background-size: cover;
+    background-position: center;
+}
+#and {
+	background: url(eat.jpg);
+	background-size: cover;
+    background-position: center;
+}
+#likes-to {
+	background: url(travel.jpg);
+	background-size: cover;
+    background-position: center;
+}
+#Get-in-touch {
+	background: url(background.png);
+	background-size: 100%;
+	background-position: center;
+}
+#top-image img {
+	opacity: 0.5;
+	padding: 40px 0px 40px 0px;
+}
+#top-image img:hover {
+	opacity: 0.2;
+}
+#xavi img {
+	margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+}
+#blackish {
+	background: black;
+	opacity: 0.7;
+}
+@media (max-width: 768px) {
+	h1,h2,h3 {
+	font-size: 36px;
+	padding: 5px;
+	}
+	i {
+	padding: 5px;
+	display: block;
+	}
+}
